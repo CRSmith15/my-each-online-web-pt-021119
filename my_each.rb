@@ -3,5 +3,6 @@ def my_each(num)
   while num.length > i 
   yield if block_given?
   i = i + 1 
+  num.to_a 
 end
 end
