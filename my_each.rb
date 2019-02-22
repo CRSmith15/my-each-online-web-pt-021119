@@ -3,5 +3,5 @@ def my_each(num)
   while num.length > i 
   yield
   i = i + 1 
-  
+end
 end
