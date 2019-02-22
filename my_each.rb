@@ -5,8 +5,3 @@ def my_each(num)
   i = i + 1 
   
 end
-
-my_each(num) do |x| 
-  puts x
-end
-end
